@@ -12,3 +12,8 @@ export interface ICartItem {
 export interface ICartState {
     items: ICartItem[];
 }
+
+export interface IProductAction {
+    type: string;
+    payload: ICartItem;
+}
